@@ -1,0 +1,63 @@
+cha json
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3133
+Running: 1 shared: 173 sharing: 450 unshared: 99222 full: 3137
+Running: 1 shared: 378 sharing: 677 unshared: 97988 full: 3142
+Running: 1 shared: 575 sharing: 953 unshared: 97419 full: 3146
+Running: 1 shared: 794 sharing: 1298 unshared: 96758 full: 3151
+cha dd
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3157
+Running: 1 shared: 163 sharing: 452 unshared: 98824 full: 3161
+Running: 1 shared: 321 sharing: 622 unshared: 97615 full: 3166
+Running: 1 shared: 571 sharing: 968 unshared: 96978 full: 3170
+Running: 1 shared: 802 sharing: 1337 unshared: 96227 full: 3175
+cha gzip
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3181
+Running: 1 shared: 170 sharing: 442 unshared: 98985 full: 3185
+Running: 1 shared: 363 sharing: 637 unshared: 98055 full: 3190
+Running: 1 shared: 628 sharing: 953 unshared: 97123 full: 3194
+Running: 1 shared: 881 sharing: 1307 unshared: 96486 full: 3199
+cha train
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3205
+Running: 1 shared: 121 sharing: 419 unshared: 91884 full: 3209
+Running: 1 shared: 257 sharing: 588 unshared: 98584 full: 3214
+Running: 1 shared: 513 sharing: 964 unshared: 82049 full: 3218
+Running: 1 shared: 719 sharing: 1227 unshared: 95567 full: 3223
+cha float
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3229
+Running: 1 shared: 253 sharing: 533 unshared: 98911 full: 3233
+Running: 1 shared: 438 sharing: 734 unshared: 98561 full: 3237
+Running: 1 shared: 623 sharing: 977 unshared: 97757 full: 3242
+Running: 1 shared: 782 sharing: 1217 unshared: 97409 full: 3247
+cha video
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3253
+Running: 1 shared: 243 sharing: 537 unshared: 98108 full: 3257
+Running: 1 shared: 463 sharing: 736 unshared: 98494 full: 3262
+Running: 1 shared: 661 sharing: 1053 unshared: 97534 full: 3266
+Running: 1 shared: 848 sharing: 1337 unshared: 95284 full: 3271
+cha cha
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3276
+Running: 1 shared: 197 sharing: 484 unshared: 98409 full: 3280
+Running: 1 shared: 293 sharing: 569 unshared: 97976 full: 3285
+Running: 1 shared: 565 sharing: 858 unshared: 96182 full: 3289
+Running: 1 shared: 722 sharing: 1158 unshared: 95393 full: 3294
+cha image
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3300
+Running: 1 shared: 14055 sharing: 29377 unshared: 86096 full: 3303
+Running: 1 shared: 14233 sharing: 29279 unshared: 84452 full: 3306
+Running: 1 shared: 14460 sharing: 29581 unshared: 87152 full: 3310
+Running: 1 shared: 14725 sharing: 23472 unshared: 93928 full: 3314
+cha lin
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 3318
+Running: 1 shared: 18781 sharing: 35244 unshared: 71541 full: 3321
+Running: 1 shared: 18922 sharing: 33488 unshared: 80594 full: 3324
+Running: 1 shared: 19139 sharing: 24960 unshared: 86391 full: 3328
+Running: 1 shared: 19352 sharing: 25140 unshared: 88531 full: 3331

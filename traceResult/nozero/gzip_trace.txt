@@ -1,0 +1,63 @@
+gzip json
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1817
+Running: 1 shared: 206 sharing: 12438 unshared: 96263 full: 1821
+Running: 1 shared: 385 sharing: 14767 unshared: 97505 full: 1825
+Running: 1 shared: 567 sharing: 15808 unshared: 97131 full: 1829
+Running: 1 shared: 826 sharing: 16612 unshared: 96392 full: 1833
+gzip dd
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1838
+Running: 1 shared: 266 sharing: 12314 unshared: 95418 full: 1842
+Running: 1 shared: 466 sharing: 14902 unshared: 97288 full: 1846
+Running: 1 shared: 632 sharing: 15580 unshared: 96428 full: 1850
+Running: 1 shared: 811 sharing: 16382 unshared: 95792 full: 1854
+gzip gzip
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1859
+Running: 1 shared: 205 sharing: 12194 unshared: 96341 full: 1863
+Running: 1 shared: 392 sharing: 14563 unshared: 97339 full: 1867
+Running: 1 shared: 593 sharing: 15420 unshared: 96246 full: 1871
+Running: 1 shared: 858 sharing: 16534 unshared: 95474 full: 1875
+gzip train
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1880
+Running: 1 shared: 194 sharing: 12688 unshared: 94781 full: 1884
+Running: 1 shared: 403 sharing: 15003 unshared: 97875 full: 1888
+Running: 1 shared: 662 sharing: 15899 unshared: 96755 full: 1892
+Running: 1 shared: 870 sharing: 16590 unshared: 96281 full: 1896
+gzip float
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1901
+Running: 1 shared: 190 sharing: 12430 unshared: 96026 full: 1905
+Running: 1 shared: 366 sharing: 14503 unshared: 97561 full: 1909
+Running: 1 shared: 585 sharing: 15407 unshared: 96595 full: 1913
+Running: 1 shared: 779 sharing: 16165 unshared: 95788 full: 1917
+gzip video
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1922
+Running: 1 shared: 264 sharing: 13026 unshared: 96898 full: 1926
+Running: 1 shared: 472 sharing: 15177 unshared: 97729 full: 1930
+Running: 1 shared: 679 sharing: 15889 unshared: 96697 full: 1934
+Running: 1 shared: 814 sharing: 16613 unshared: 94408 full: 1938
+gzip cha
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1943
+Running: 1 shared: 258 sharing: 12578 unshared: 98276 full: 1947
+Running: 1 shared: 433 sharing: 14759 unshared: 97205 full: 1951
+Running: 1 shared: 550 sharing: 15361 unshared: 94227 full: 1955
+Running: 1 shared: 778 sharing: 16228 unshared: 95839 full: 1959
+gzip image
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1964
+Running: 1 shared: 14182 sharing: 48463 unshared: 85492 full: 1967
+Running: 1 shared: 14285 sharing: 48942 unshared: 84857 full: 1970
+Running: 1 shared: 14533 sharing: 50338 unshared: 85695 full: 1973
+Running: 1 shared: 14670 sharing: 48228 unshared: 91651 full: 1976
+gzip lin
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1980
+Running: 1 shared: 18889 sharing: 62583 unshared: 70791 full: 1983
+Running: 1 shared: 18995 sharing: 55395 unshared: 77058 full: 1986
+Running: 1 shared: 19251 sharing: 45377 unshared: 82128 full: 1989
+Running: 1 shared: 19527 sharing: 46705 unshared: 87257 full: 1992

@@ -1,0 +1,6 @@
+lin json
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+Running: 1 shared: 18870 sharing: 62128 unshared: 71011 full: 3
+Running: 1 shared: 18971 sharing: 54646 unshared: 78961 full: 6
+Running: 1 shared: 19263 sharing: 46495 unshared: 83960 full: 9

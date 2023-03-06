@@ -1,0 +1,63 @@
+float json
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2577
+Running: 1 shared: 216 sharing: 12323 unshared: 94914 full: 2581
+Running: 1 shared: 410 sharing: 14555 unshared: 97497 full: 2585
+Running: 1 shared: 677 sharing: 15541 unshared: 96358 full: 2589
+Running: 1 shared: 867 sharing: 16439 unshared: 95659 full: 2593
+float dd
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2599
+Running: 1 shared: 207 sharing: 12620 unshared: 95614 full: 2603
+Running: 1 shared: 410 sharing: 14526 unshared: 97275 full: 2607
+Running: 1 shared: 631 sharing: 15311 unshared: 96638 full: 2611
+Running: 1 shared: 924 sharing: 16468 unshared: 95476 full: 2615
+float gzip
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2621
+Running: 1 shared: 184 sharing: 12305 unshared: 94718 full: 2625
+Running: 1 shared: 367 sharing: 14623 unshared: 97617 full: 2629
+Running: 1 shared: 611 sharing: 15401 unshared: 96486 full: 2633
+Running: 1 shared: 869 sharing: 16280 unshared: 95647 full: 2637
+float train
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2642
+Running: 1 shared: 240 sharing: 13451 unshared: 113201 full: 2645
+Running: 1 shared: 450 sharing: 16013 unshared: 109931 full: 2649
+Running: 1 shared: 642 sharing: 17432 unshared: 110619 full: 2653
+Running: 1 shared: 895 sharing: 18738 unshared: 109391 full: 2656
+float float
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2661
+Running: 1 shared: 229 sharing: 12207 unshared: 95058 full: 2665
+Running: 1 shared: 459 sharing: 14719 unshared: 98141 full: 2669
+Running: 1 shared: 681 sharing: 15674 unshared: 96995 full: 2673
+Running: 1 shared: 891 sharing: 16500 unshared: 96120 full: 2677
+float video
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2682
+Running: 1 shared: 241 sharing: 13246 unshared: 96648 full: 2686
+Running: 1 shared: 394 sharing: 14799 unshared: 97293 full: 2690
+Running: 1 shared: 636 sharing: 15964 unshared: 95853 full: 2694
+Running: 1 shared: 857 sharing: 16455 unshared: 93885 full: 2698
+float cha
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2703
+Running: 1 shared: 227 sharing: 12213 unshared: 96197 full: 2707
+Running: 1 shared: 443 sharing: 14624 unshared: 97870 full: 2711
+Running: 1 shared: 683 sharing: 15373 unshared: 96935 full: 2715
+Running: 1 shared: 888 sharing: 16215 unshared: 96208 full: 2719
+float image
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2724
+Running: 1 shared: 14198 sharing: 48461 unshared: 85074 full: 2727
+Running: 1 shared: 14256 sharing: 49223 unshared: 84169 full: 2730
+Running: 1 shared: 14517 sharing: 48076 unshared: 83687 full: 2733
+Running: 1 shared: 14683 sharing: 49803 unshared: 89906 full: 2736
+float lin
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 2740
+Running: 1 shared: 18878 sharing: 73566 unshared: 80697 full: 2742
+Running: 1 shared: 18942 sharing: 70564 unshared: 84454 full: 2745
+Running: 1 shared: 19211 sharing: 58043 unshared: 100255 full: 2747
+Running: 1 shared: 19548 sharing: 51240 unshared: 100368 full: 2750

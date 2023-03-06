@@ -1,0 +1,56 @@
+per scan: 100 per sleep: 5 zero use: 1
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2541904    28344252       20196     1873616    29760060
+Swap:       2097148        1792     2095356
+Running: 0 shared: 0 sharing: 0 unshared: 0 full: 0
+per scan: 100 per sleep: 5 zero use: 1
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2553268    28331380       20204     1875124    29748612
+Swap:       2097148        1792     2095356
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2555828    28320360       20212     1883584    29746404
+Swap:       2097148        1792     2095356
+per scan: 100 per sleep: 5 zero use: 1
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2638968    28168988       20224     1951816    29659976
+Swap:       2097148        1536     2095612
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
+ef: 2 ws: 183
+Running: 1 shared: 248 sharing: 541 unshared: 99217 full: 4
+ef: 1 ws: 116
+Running: 1 shared: 474 sharing: 844 unshared: 98439 full: 9
+ef: 1 ws: 80
+Running: 1 shared: 686 sharing: 1204 unshared: 97240 full: 13
+ef: 1 ws: 66
+Running: 1 shared: 824 sharing: 1461 unshared: 96974 full: 18
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2589516    28217216       20224     1953040    29708912
+Swap:       2097148        1536     2095612
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2610116    28196584       20224     1953072    29688328
+Swap:       2097148        1536     2095612
+per scan: 100 per sleep: 5 zero use: 1
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2754836    27958016       20156     2046920    29538632
+Swap:       2097148        1536     2095612
+ef: 2 ws: 240
+Running: 1 shared: 156 sharing: 404 unshared: 97130 full: 23
+ef: 2 ws: 2
+Running: 1 shared: 14253 sharing: 29513 unshared: 87266 full: 26
+ef: 2 ws: 2
+Running: 1 shared: 14513 sharing: 29597 unshared: 83583 full: 30
+ef: 1 ws: 3
+Running: 1 shared: 14803 sharing: 22616 unshared: 86100 full: 33
+ef: 1 ws: 4
+Running: 1 shared: 14881 sharing: 22699 unshared: 96776 full: 37
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2596492    28113540       20156     2049740    29696712
+Swap:       2097148        1536     2095612
+              total        used        free      shared  buff/cache   available
+Mem:       32759772     2666880    28042956       20156     2049936    29626320
+Swap:       2097148        1536     2095612
