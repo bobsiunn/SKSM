@@ -1,0 +1,63 @@
+json json
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 908
+Running: 1 shared: 204 sharing: 485 unshared: 99042 full: 912
+Running: 1 shared: 374 sharing: 653 unshared: 97976 full: 917
+Running: 1 shared: 574 sharing: 934 unshared: 96927 full: 921
+Running: 1 shared: 754 sharing: 1252 unshared: 96267 full: 926
+json dd
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 932
+Running: 1 shared: 187 sharing: 463 unshared: 98657 full: 936
+Running: 1 shared: 364 sharing: 635 unshared: 97876 full: 941
+Running: 1 shared: 580 sharing: 951 unshared: 96994 full: 945
+Running: 1 shared: 799 sharing: 1300 unshared: 96098 full: 950
+json gzip
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 956
+Running: 1 shared: 206 sharing: 490 unshared: 98922 full: 960
+Running: 1 shared: 350 sharing: 642 unshared: 97883 full: 965
+Running: 1 shared: 564 sharing: 907 unshared: 97134 full: 969
+Running: 1 shared: 783 sharing: 1213 unshared: 96369 full: 974
+json train
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 980
+Running: 1 shared: 441 sharing: 752 unshared: 97792 full: 984
+Running: 1 shared: 624 sharing: 973 unshared: 97428 full: 989
+Running: 1 shared: 676 sharing: 1032 unshared: 97224 full: 993
+Running: 1 shared: 753 sharing: 1174 unshared: 97012 full: 998
+json float
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1004
+Running: 1 shared: 162 sharing: 461 unshared: 99079 full: 1008
+Running: 1 shared: 347 sharing: 682 unshared: 97951 full: 1013
+Running: 1 shared: 559 sharing: 953 unshared: 97113 full: 1017
+Running: 1 shared: 785 sharing: 1295 unshared: 96252 full: 1022
+json video
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1028
+Running: 1 shared: 231 sharing: 560 unshared: 97864 full: 1032
+Running: 1 shared: 354 sharing: 680 unshared: 97715 full: 1037
+Running: 1 shared: 594 sharing: 992 unshared: 96510 full: 1041
+Running: 1 shared: 819 sharing: 1400 unshared: 94397 full: 1046
+json cha
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1052
+Running: 1 shared: 217 sharing: 498 unshared: 98200 full: 1056
+Running: 1 shared: 393 sharing: 671 unshared: 98338 full: 1061
+Running: 1 shared: 543 sharing: 819 unshared: 97881 full: 1065
+Running: 1 shared: 769 sharing: 1135 unshared: 97017 full: 1070
+json image
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1076
+Running: 1 shared: 14127 sharing: 29128 unshared: 85516 full: 1079
+Running: 1 shared: 14268 sharing: 29303 unshared: 84866 full: 1082
+Running: 1 shared: 14519 sharing: 29665 unshared: 87399 full: 1086
+Running: 1 shared: 14710 sharing: 23012 unshared: 94496 full: 1090
+json lin
+per scan: 100 per sleep: 5 zero use: 1
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 1094
+Running: 1 shared: 18769 sharing: 35247 unshared: 95527 full: 1096
+Running: 1 shared: 18975 sharing: 35233 unshared: 96792 full: 1099
+Running: 1 shared: 19251 sharing: 35669 unshared: 95591 full: 1102
+Running: 1 shared: 19502 sharing: 26837 unshared: 96593 full: 1106

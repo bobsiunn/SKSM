@@ -1,13 +1,29 @@
 #!/bin/bash
 
 #param
-MAIN_FUNC="lin"
+MAIN_FUNC="cnn"
 NOZERO_PATH="/home/bob/SKSM/traceResult/nozero/${MAIN_FUNC}_trace.txt"
 ZERO_PATH="/home/bob/SKSM/traceResult/zero/${MAIN_FUNC}_trace.txt"
 
 
 
 #zero
+su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+sleep 1m
+
+echo "$MAIN_FUNC cnn" >> $ZERO_PATH
+su bob -c "./simulWsk.sh $MAIN_FUNC cnn"
+./ksmSimul.sh 1 >> $ZERO_PATH
+
+su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+sleep 10
+echo 1 > /sys/kernel/mm/ksm/run
+sleep 10
+echo 0 > /sys/kernel/mm/ksm/run
+sleep 10
+
 
 # su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
@@ -180,13 +196,12 @@ ZERO_PATH="/home/bob/SKSM/traceResult/zero/${MAIN_FUNC}_trace.txt"
 
 
 #nozero
-
 su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
 sleep 1m
 
-echo "$MAIN_FUNC json" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC json"
+echo "$MAIN_FUNC cnn" >> $NOZERO_PATH
+su bob -c "./simulWsk.sh $MAIN_FUNC cnn"
 ./ksmSimul.sh 0 >> $NOZERO_PATH
 
 su bob -c "tmux send-keys -t 0 "^C" Enter"
@@ -198,151 +213,168 @@ echo 0 > /sys/kernel/mm/ksm/run
 sleep 10
 
 
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
+# sleep 1m
 
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+# echo "$MAIN_FUNC json" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC json"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
 
-sleep 1m
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
 
-echo "$MAIN_FUNC dd" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC dd"
-./ksmSimul.sh 0 >> $NOZERO_PATH
-
-su bob -c "tmux send-keys -t 0 "^C" Enter"
-
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
-
-
-
-
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
-
-sleep 1m
-
-echo "$MAIN_FUNC gzip" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC gzip"
-./ksmSimul.sh 0 >> $NOZERO_PATH
-
-su bob -c "tmux send-keys -t 0 "^C" Enter"
-
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
-
-
-
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
-
-sleep 1m
-
-echo "$MAIN_FUNC train" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC train"
-./ksmSimul.sh 0 >> $NOZERO_PATH
-
-su bob -c "tmux send-keys -t 0 "^C" Enter"
-
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
 
 
 
 
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
-sleep 1m
+# sleep 1m
 
-echo "$MAIN_FUNC float" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC float"
-./ksmSimul.sh 0 >> $NOZERO_PATH
+# echo "$MAIN_FUNC dd" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC dd"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
 
-su bob -c "tmux send-keys -t 0 "^C" Enter"
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
 
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
-
-
-
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
-
-sleep 1m
-
-echo "$MAIN_FUNC video" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC video"
-./ksmSimul.sh 0 >> $NOZERO_PATH
-
-su bob -c "tmux send-keys -t 0 "^C" Enter"
-
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
 
 
 
 
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
-sleep 1m
+# sleep 1m
 
-echo "$MAIN_FUNC cha" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC cha"
-./ksmSimul.sh 0 >> $NOZERO_PATH
+# echo "$MAIN_FUNC gzip" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC gzip"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
 
-su bob -c "tmux send-keys -t 0 "^C" Enter"
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
 
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
-
-
-
-
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
-
-sleep 1m
-
-echo "$MAIN_FUNC image" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC image"
-./ksmSimul.sh 0 >> $NOZERO_PATH
-
-su bob -c "tmux send-keys -t 0 "^C" Enter"
-
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
 
 
 
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
 
-su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+# sleep 1m
 
-sleep 1m
+# echo "$MAIN_FUNC train" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC train"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
 
-echo "$MAIN_FUNC lin" >> $NOZERO_PATH
-su bob -c "./simulWsk.sh $MAIN_FUNC lin"
-./ksmSimul.sh 0 >> $NOZERO_PATH
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
 
-su bob -c "tmux send-keys -t 0 "^C" Enter"
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
 
-sleep 10
-echo 1 > /sys/kernel/mm/ksm/run
-sleep 10
-echo 0 > /sys/kernel/mm/ksm/run
-sleep 10
+
+
+
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+# sleep 1m
+
+# echo "$MAIN_FUNC float" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC float"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
+
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
+
+
+
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+# sleep 1m
+
+# echo "$MAIN_FUNC video" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC video"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
+
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
+
+
+
+
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+# sleep 1m
+
+# echo "$MAIN_FUNC cha" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC cha"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
+
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
+
+
+
+
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+# sleep 1m
+
+# echo "$MAIN_FUNC image" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC image"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
+
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10
+
+
+
+
+# su bob -c "tmux send-keys -t 0 "./runOpenwhisk.sh" Enter"
+
+# sleep 1m
+
+# echo "$MAIN_FUNC lin" >> $NOZERO_PATH
+# su bob -c "./simulWsk.sh $MAIN_FUNC lin"
+# ./ksmSimul.sh 0 >> $NOZERO_PATH
+
+# su bob -c "tmux send-keys -t 0 "^C" Enter"
+
+# sleep 10
+# echo 1 > /sys/kernel/mm/ksm/run
+# sleep 10
+# echo 0 > /sys/kernel/mm/ksm/run
+# sleep 10

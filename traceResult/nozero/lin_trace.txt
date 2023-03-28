@@ -4,3 +4,60 @@ Running: 1 shared: 0 sharing: 0 unshared: 0 full: 0
 Running: 1 shared: 18870 sharing: 62128 unshared: 71011 full: 3
 Running: 1 shared: 18971 sharing: 54646 unshared: 78961 full: 6
 Running: 1 shared: 19263 sharing: 46495 unshared: 83960 full: 9
+Running: 1 shared: 19478 sharing: 47005 unshared: 87778 full: 12
+lin dd
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 16
+Running: 1 shared: 18935 sharing: 62661 unshared: 73365 full: 18
+Running: 1 shared: 19025 sharing: 60277 unshared: 65581 full: 21
+Running: 1 shared: 19241 sharing: 61879 unshared: 78849 full: 24
+Running: 1 shared: 19402 sharing: 62015 unshared: 78921 full: 27
+lin gzip
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 31
+Running: 1 shared: 18875 sharing: 57214 unshared: 74522 full: 34
+Running: 1 shared: 19012 sharing: 45352 unshared: 88091 full: 37
+Running: 1 shared: 19330 sharing: 46453 unshared: 87480 full: 40
+Running: 1 shared: 19484 sharing: 46574 unshared: 87485 full: 43
+lin train
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 47
+Running: 1 shared: 18843 sharing: 53982 unshared: 78306 full: 50
+Running: 1 shared: 18997 sharing: 45336 unshared: 88390 full: 53
+Running: 1 shared: 19292 sharing: 46163 unshared: 83770 full: 56
+Running: 1 shared: 19510 sharing: 46911 unshared: 87802 full: 59
+lin float
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 63
+Running: 1 shared: 18863 sharing: 56506 unshared: 75329 full: 66
+Running: 1 shared: 18971 sharing: 45662 unshared: 88036 full: 69
+Running: 1 shared: 19185 sharing: 46356 unshared: 83655 full: 72
+Running: 1 shared: 19367 sharing: 46850 unshared: 87383 full: 75
+lin video
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 79
+Running: 1 shared: 18925 sharing: 70155 unshared: 87510 full: 81
+Running: 1 shared: 19027 sharing: 56655 unshared: 101082 full: 84
+Running: 1 shared: 19293 sharing: 53193 unshared: 104569 full: 86
+Running: 1 shared: 19553 sharing: 50392 unshared: 108004 full: 89
+lin cha
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 93
+Running: 1 shared: 18879 sharing: 61988 unshared: 71197 full: 96
+Running: 1 shared: 19001 sharing: 54982 unshared: 78805 full: 99
+Running: 1 shared: 19266 sharing: 46555 unshared: 87096 full: 102
+Running: 1 shared: 19459 sharing: 47122 unshared: 87266 full: 105
+lin image
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 109
+Running: 1 shared: 23995 sharing: 64676 unshared: 65199 full: 112
+Running: 1 shared: 24088 sharing: 45841 unshared: 82510 full: 115
+Running: 1 shared: 24350 sharing: 36490 unshared: 89481 full: 118
+Running: 1 shared: 24536 sharing: 36688 unshared: 93770 full: 121
+lin lin
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 125
+Running: 1 shared: 18887 sharing: 62256 unshared: 71437 full: 128
+Running: 1 shared: 19009 sharing: 47880 unshared: 85430 full: 131
+Running: 1 shared: 19220 sharing: 45985 unshared: 81709 full: 134
+Running: 1 shared: 19334 sharing: 46434 unshared: 88230 full: 137

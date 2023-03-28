@@ -1,0 +1,70 @@
+cnn json
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 345
+Running: 1 shared: 227 sharing: 12705 unshared: 95967 full: 349
+Running: 1 shared: 431 sharing: 14843 unshared: 97381 full: 353
+Running: 1 shared: 562 sharing: 15464 unshared: 96768 full: 357
+Running: 1 shared: 795 sharing: 16137 unshared: 96072 full: 361
+cnn dd
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 366
+Running: 1 shared: 214 sharing: 12676 unshared: 97948 full: 370
+Running: 1 shared: 408 sharing: 15002 unshared: 98258 full: 374
+Running: 1 shared: 599 sharing: 15785 unshared: 97421 full: 378
+Running: 1 shared: 850 sharing: 16512 unshared: 96698 full: 382
+cnn gzip
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 387
+Running: 1 shared: 216 sharing: 12680 unshared: 94199 full: 391
+Running: 1 shared: 520 sharing: 14955 unshared: 97821 full: 395
+Running: 1 shared: 740 sharing: 15553 unshared: 97020 full: 399
+Running: 1 shared: 983 sharing: 16381 unshared: 96202 full: 403
+cnn train
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 408
+Running: 1 shared: 208 sharing: 12811 unshared: 94951 full: 412
+Running: 1 shared: 408 sharing: 14833 unshared: 97480 full: 416
+Running: 1 shared: 678 sharing: 15727 unshared: 96401 full: 420
+Running: 1 shared: 892 sharing: 16419 unshared: 95494 full: 424
+cnn float
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 429
+Running: 1 shared: 312 sharing: 13424 unshared: 97001 full: 433
+Running: 1 shared: 542 sharing: 14760 unshared: 97219 full: 437
+Running: 1 shared: 756 sharing: 15546 unshared: 96381 full: 441
+Running: 1 shared: 936 sharing: 16291 unshared: 95728 full: 445
+cnn video
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 450
+Running: 1 shared: 333 sharing: 13451 unshared: 96225 full: 454
+Running: 1 shared: 523 sharing: 14951 unshared: 97217 full: 458
+Running: 1 shared: 805 sharing: 15964 unshared: 95809 full: 462
+Running: 1 shared: 992 sharing: 16388 unshared: 93962 full: 466
+cnn cha
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 471
+Running: 1 shared: 279 sharing: 13060 unshared: 96643 full: 475
+Running: 1 shared: 465 sharing: 14800 unshared: 97244 full: 479
+Running: 1 shared: 725 sharing: 15474 unshared: 96325 full: 483
+Running: 1 shared: 845 sharing: 16183 unshared: 95591 full: 487
+cnn image
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 492
+Running: 1 shared: 14177 sharing: 48424 unshared: 85217 full: 495
+Running: 1 shared: 14300 sharing: 49050 unshared: 84523 full: 498
+Running: 1 shared: 14587 sharing: 50447 unshared: 85768 full: 501
+Running: 1 shared: 14739 sharing: 49045 unshared: 90975 full: 504
+cnn lin
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 508
+Running: 1 shared: 18887 sharing: 62827 unshared: 70446 full: 511
+Running: 1 shared: 19033 sharing: 53513 unshared: 80064 full: 514
+Running: 1 shared: 19282 sharing: 45671 unshared: 82534 full: 517
+Running: 1 shared: 19378 sharing: 45832 unshared: 88170 full: 520
+cnn cnn
+per scan: 100 per sleep: 5 zero use: 0
+Running: 1 shared: 0 sharing: 0 unshared: 0 full: 24
+Running: 1 shared: 278 sharing: 12439 unshared: 98625 full: 28
+Running: 1 shared: 481 sharing: 14359 unshared: 96993 full: 32
+Running: 1 shared: 656 sharing: 15514 unshared: 96627 full: 36
+Running: 1 shared: 849 sharing: 16224 unshared: 95093 full: 40
